@@ -2,9 +2,9 @@ def square_array(array)
 
   new_array = []
   array.each do |sq|
-    sq
+     new_array << sq **2
   end
-    array
+    new_array
 end
 
 # array.collect {|num|  num * num}
